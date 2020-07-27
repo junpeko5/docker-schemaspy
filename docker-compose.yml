@@ -1,0 +1,6 @@
+schemaspy:
+  image: schemaspy/schemaspy
+  volumes:
+    - ./output:/output
+  container_name: "schemaspy_local"
+  command: ["-configFile", "schemaspy.properties"]
